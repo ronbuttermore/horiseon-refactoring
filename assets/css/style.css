@@ -50,13 +50,12 @@ p {
     font-size: 16px;
 }
 
+/* assigns height, width, and bottom margin to large cover image */
+/* removed background property and moved to img element in HTML */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
