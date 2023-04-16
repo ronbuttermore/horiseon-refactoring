@@ -1,16 +1,16 @@
 # Horiseon Webpage
 
-##Description
+## Description
 
 This webpage was created to provide users the ability to learn more about Horiseon Social Solution Services, Inc., what services they provide, and the importance of services provided. New or existing users familiar with Horiseon S.S.S. can visit this webpage at https://ronbuttermore.github.io/horiseon-refactoring/ to learn more about Heriseon's Search Engine Optimization, Online Reputation Management, and Social Media Marketing services.
 
-##Usage
+## Usage
 
 The information contained in this webpage can be accessed via any browser by navigating to https://ronbuttermore.github.io/horiseon-refactoring/. The three links in the top right of the navigation bar at the top of the page can be clicked on to quickly jump to one of the three main content sections of the webpage.
 
 ![This image is a screenshot of the Horiseon webpage.](assets/images/screenshot.PNG)
 
-##License
+## License
 
 MIT Open-Source License
 
