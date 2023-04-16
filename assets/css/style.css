@@ -15,28 +15,30 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/*removed .header class as h1 only appears in header*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* removed .header and h1 class selectors, as color only applies to SEO */
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*Moved .header div styling to ul to point styling to semantic div element*/
+/* Removed .header and div class selectors as ul in header is only one in page */
+ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* Removed .header and div class selectors as li in header are only ones in page */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,9 +52,9 @@ p {
     font-size: 16px;
 }
 
-/* assigns height, width, and bottom margin to large cover image */
 /* removed background property and moved to img element in HTML */
-.hero {
+/* Changed the class name hero to meeting-image as it is more descriptive*/
+.meeting-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -85,55 +87,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated .benefit-lead, .benefit-brand, and .benefit-cost into one .benefit-formatclass to eliminate redundancy*/
+.benefit-format {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* removed .benefit format class because h3 is only exists in benefit class*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-format img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Consolidated .search-engine-optimization, .online-reputation-management, and .social-media marketing into one .content-section class to eliminate redundancies*/
+.content-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,47 +115,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.content-section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -194,6 +131,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Changed footer h2 to h4 to follow sequential ordering*/
+.footer h4 {
     font-size: 20px;
 }

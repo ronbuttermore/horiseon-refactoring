@@ -10,8 +10,9 @@
 <body>
     <!--Changed div to header for semantic purposes-->
     <header class="header">
+        <!--Left span even though it is not semantic as it is an inline container used to color part of a text-->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--Removed div and changed CSS styling to point to the semantic ul element instead-->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,31 +24,31 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
     </header>
     <!--Added main element for semantic purposes-->
     <main>
         <!--Added alt descriptions to all images in the main element for accessbility reasons-->
         <!--Changed div to img element for semantic purposes-->
-        <img src="./assets/images/digital-marketing-meeting.jpg" class="hero" alt="A picture of a digital marketing team consisting of four members planning by reviewing documents around a table during a meeting." />
+        <img src="./assets/images/digital-marketing-meeting.jpg" class="meeting-image" alt="A picture of a digital marketing team consisting of four members planning by reviewing documents around a table during a meeting." />
         <!--Left div element as is because div does not contain descriptive header and is used as a styling tool...semantic elements found below in each section-->
         <div class="content">
             <!--Changed all divs in this section to nested sections for semantic purposes-->
-            <section id="search-engine-optimization" class="search-engine-optimization">
+            <!--Removed ids for each section as there is no styling in CSS that points to these ids-->
+            <section class="content-section">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A picture of a notebook on a desk depicting a Search Engine Optimization brainstorming map with the topics of Content, Headings, Mobile Compatibility, Social Media, Link Building, and Banklink displayed." />
                 <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
             </section>
-            <section id="online-reputation-management" class="online-reputation-management">
+            <section class="content-section">
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A picture of a person at a desk using a computer displaying the word 'reputation' alongside graphs suggesting increasing value." />
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                 </p>
             </section>
-            <section id="social-media-marketing" class="social-media-marketing">
+            <section class="content-section">
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A top-down image of a desk with people gathered around it on which various social media-related icons and buzzwords are displayed." />
                 <h2>Social Media Marketing</h2>
                 <p>
@@ -58,21 +59,21 @@
         <!--Left div element as is because div does not contain descriptive header and is used as a styling tool...semantic elements found below in each section-->
         <div class="benefits">
             <!--Changed all divs in this section to nested sections for semantic purposes-->
-            <section class="benefit-lead">
+            <section class="benefit-format">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="A black icon showing a gear at the top funneling down into a money symbol" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </section>
-            <section class="benefit-brand">
+            <section class="benefit-format">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" alt="A black icon showing a businessperson with a lightbulb for a head eminating waves." />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </section>
-            <section class="benefit-cost">
+            <section class="benefit-format">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="A black icon showing a grouping of three money signs and a gear." />
                 <p>
@@ -82,8 +83,9 @@
         </div>
     </main>
     <!--Changed div to footer element for semantic purposes-->
+    <!--Changed footer h2 to h4 to follow sequential order-->
     <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
