@@ -26,7 +26,7 @@ h1 {
     color: #d9dcd6;
 }
 
-/*Moved .header div styling to ul to point styling to semantic div element*/
+/* Moved .header div styling to ul to point styling to semantic div element*/
 /* Removed .header and div class selectors as ul in header is only one in page */
 ul {
     padding-top: 15px;
@@ -48,10 +48,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 /* removed background property and moved to img element in HTML */
 /* Changed the class name hero to meeting-image as it is more descriptive*/
 .meeting-image {
@@ -60,20 +56,44 @@ p {
     margin-bottom: 25px;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Consolidated .search-engine-optimization, .online-reputation-management, and .social-media marketing into one .content-section class to eliminate redundancies*/
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-section img {
+    max-height: 200px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* removed content-section class because h2 only exists in benefit class*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -103,26 +123,6 @@ h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Consolidated .search-engine-optimization, .online-reputation-management, and .social-media marketing into one .content-section class to eliminate redundancies*/
-.content-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-section img {
-    max-height: 200px;
-}
-
-/* removed content-section class because h2 only exists in benefit class*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
