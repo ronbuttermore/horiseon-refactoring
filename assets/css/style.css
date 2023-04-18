@@ -1,3 +1,4 @@
+/* Universal selector and body selector for entire HTML and display of webpage properties */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Following 5 selectors modify header elements */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,6 +45,7 @@ li {
     margin-left: 25px;
 }
 
+/* Following 13 selectors modify main HTML elements */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -125,6 +128,7 @@ h3 {
     max-width: 150px;
 }
 
+/* Following 2 selectors modify footer elements */
 .footer {
     padding: 30px;
     clear: both;
